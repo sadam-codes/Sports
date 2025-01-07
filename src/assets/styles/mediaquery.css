@@ -1,0 +1,17 @@
+/* Normal styling for large screens */
+.center {
+  /* Large screen styles here */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .dd {
+    position: relative;
+    right: 0rem;
+  }
+  .df {
+    position: relative;
+    right: 0rem;
+    
+  }
+}
