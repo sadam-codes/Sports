@@ -7,10 +7,18 @@ function FootballPart() {
   return (
     <Container>
       <div className="parenDiv d-lg-flex d-sm-inline-block">
-        <img className="secondimagewdith float-left" src={women} alt="No Display" />
+        <img
+          className="secondimagewdith float-left"
+          src={women}
+          alt="No Display"
+        />
         <div className="womenbg px-4 py-4">
           <div className="d-flex align-items-center">
-            <img className="footballstyling" src={volleyballmain} alt="No display" />
+            <img
+              className="footballstyling"
+              src={volleyballmain}
+              alt="No display"
+            />
             <h3 className="commoncolor px-2 mb-0 fw-bold">VOLLEYBALL</h3>
           </div>
           <p className="main-para mb-0">
@@ -44,10 +52,9 @@ function FootballPart() {
             </button>
           </div>
           <p className="main-para mb-0 py-2">
-            Le comité dorganisation présidé par un délégué et accompagné par des
-            arbitres assureront la gestion des rencontres entre les différentes
-            équipes. Les résultats des rencontres seront affichés via le site
-            web www.rabatjeunesse.ma.
+            Le comité d'organisation, dirigé par un délégué et assisté
+            d'arbitres, veillera à la gestion des matchs opposant les diverses
+            équipes. Les scores des rencontres seront publiés sur le site web
           </p>
           <p className="main-para mb-0 py-2">
             Le programme de la compétition sera publié dès la finalisation de
@@ -60,7 +67,9 @@ function FootballPart() {
             Pour sinscrire, veuillez cliquer sur le bouton suivant.
           </p>
           <div className="text-start">
-          <button className="subscribe-button" type="button">SINSCRIRE</button>
+            <button className="subscribe-button" type="button">
+              SINSCRIRE
+            </button>
           </div>
         </div>
       </div>
