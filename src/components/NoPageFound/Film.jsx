@@ -13,7 +13,11 @@ function FootballPart() {
         />
         <div className="cameraman px-4 py-3">
           <div className="d-flex align-items-center">
-            <img className="footballstyling" src={documentair} alt="No display" />
+            <img
+              className="footballstyling"
+              src={documentair}
+              alt="No display"
+            />
             <h3 className="commoncolor px-2 py-3 mb-0 fw-bold">
               MEILLEUR FILM DOCUMENTAIRE
             </h3>
@@ -24,10 +28,9 @@ function FootballPart() {
           </p>
 
           <p className="main-para mb-0 py-2">
-            Le comité dorganisation présidé par un délégué et accompagné par des
-            arbitres assureront la gestion des rencontres entre les différentes
-            équipes. Les résultats des rencontres seront affichés via le site
-            web www.rabatjeunesse.ma.
+            Le comité d'organisation, dirigé par un délégué et assisté par des
+            arbitres, veillera à la gestion des matchs entre les différentes
+            équipes. Les résultats des rencontres seront publiés sur le site web
           </p>
           <p className="main-para mb-0 py-2">
             Le programme de la compétition sera publié dès la finalisation de
@@ -42,8 +45,6 @@ function FootballPart() {
               SINSCRIRE
             </button>
           </div>
-          
-     
         </div>
       </div>
     </Container>
