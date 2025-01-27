@@ -12,6 +12,7 @@ function FootballPart() {
               className="footballstyling"
               src={commentator}
               alt="No dispaly"
+              loading="lazy"
             />
             <h3 className="commoncolor px-2 py-3 mb-0 fw-bold">
               MEILLEUR COMMENTATEUR
@@ -37,7 +38,7 @@ function FootballPart() {
             </button>
           </div>
         </div>
-        <img className="imagewidth" src={catchfootball} alt="No Display" />
+        <img className="imagewidth" src={catchfootball} alt="No Display" loading="lazy"/>
       </div>
     </Container>
   );

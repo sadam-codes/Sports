@@ -47,7 +47,7 @@ function BasicExample() {
               className="py-3 px-3 border-radius-5 custom-cardtwo border-0"
               style={{ borderRadius: "10px" }}
             >
-              <Card.Img variant="top" src={sport.image} />
+              <Card.Img variant="top" src={sport.image} loading="lazy"/>
               <h3 className="mb-0 text-center fw-bold py-3 gamesstyling">
                 {sport.name}
               </h3>

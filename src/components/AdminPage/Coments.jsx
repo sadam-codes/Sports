@@ -58,6 +58,7 @@ function CardExample() {
                   position: "relative",
                   right: "80px",
                 }}
+                loading="lazy"
               />
               {index < 3 && (
                 <div
@@ -67,8 +68,9 @@ function CardExample() {
                     top: '90px',
                     left: '190px',
                   }}
+                  loading="lazy"
                 >
-                  <img src={redline} alt="Red Line" />
+                  <img src={redline} alt="Red Line" loading="lazy"/>
                 </div>
               )}
               <Card.Body>
