@@ -11,7 +11,12 @@ function Hexagonal() {
       </div>
       <Row className="text-center pt-5">
         <Col>
-          <img className="polygonimage" src={polygon} alt="NO display" />
+          <img
+            className="polygonimage"
+            src={polygon}
+            alt="NO display"
+            loading="lazy"
+          />
 
           <div className="text-center text-white position-relative bottom-50">
             <p className="mb-0 fontsizing px-3 pt-5">
@@ -22,12 +27,18 @@ function Hexagonal() {
               className="polygonimagetwo"
               src={polygontwo}
               alt="NO display"
+              loading="lazy"
             />
           </div>
         </Col>
 
         <Col>
-          <img className="polygonimage" src={polygon} alt="NO display" />
+          <img
+            className="polygonimage"
+            src={polygon}
+            alt="NO display"
+            loading="lazy"
+          />
 
           <div className="text-center text-white position-relative bottom-50">
             <p className="mb-0 fontsizing px-3 pt-5">
@@ -38,12 +49,18 @@ function Hexagonal() {
               className="polygonimagetwo"
               src={polygontwo}
               alt="NO display"
+              loading="lazy"
             />
           </div>
         </Col>
 
         <Col>
-          <img className="polygonimage" src={polygon} alt="NO display" />
+          <img
+            className="polygonimage"
+            src={polygon}
+            alt="NO display"
+            loading="lazy"
+          />
 
           <div className="text-center text-white position-relative bottom-50">
             <p className="mb-0 fontsizing px-3 pt-5">
@@ -54,6 +71,7 @@ function Hexagonal() {
               className="polygonimagetwo"
               src={polygontwo}
               alt="NO display"
+              loading="lazy"
             />
           </div>
         </Col>
