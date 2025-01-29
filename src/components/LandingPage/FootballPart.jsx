@@ -9,7 +9,7 @@ function FootballPart() {
       <div className="parenDiv d-lg-flex d-sm-inline-block">
         <div className="bgimage">
           <div className="d-flex align-items-center pt-4">
-            <img className="footballstyling" src={Football} alt="No dispaly" />
+            <img className="footballstyling" src={Football} alt="No dispaly" loading='lazy'/>
             <h3 className="commoncolor px-2 mb-0 fw-bold">FOOTBALL</h3>
           </div>
           <p className="main-para mb-0">
@@ -22,6 +22,7 @@ function FootballPart() {
                 className="footballstylingforbuttons"
                 src={whiteFootball}
                 alt="No dispaly"
+                loading='lazy'
               />
               <span className="para-styling">Mions de 12 ans</span>
             </button>
@@ -30,6 +31,7 @@ function FootballPart() {
                 className="footballstylingforbuttons"
                 src={whiteFootball}
                 alt="No dispaly"
+                loading='lazy'
               />
               <span className="para-styling">Mions de 15 ans</span>
             </button>
@@ -38,6 +40,7 @@ function FootballPart() {
                 className="footballstylingforbuttons"
                 src={whiteFootball}
                 alt="No dispaly"
+                loading='lazy'
               />
               <span className="para-styling">Mions de 18 ans</span>
             </button>
@@ -46,6 +49,7 @@ function FootballPart() {
                 className="footballstylingforbuttons"
                 src={whiteFootball}
                 alt="No dispaly"
+                loading='lazy'
               />
               <span className="para-styling">De 18 ans et plus</span>
             </button>
@@ -72,7 +76,7 @@ function FootballPart() {
             </button>
           </div>
         </div>
-        <img className="imagewidth" src={man} alt="No Display" />
+        <img className="imagewidth" src={man} alt="No Display" loading='lazy'/>
       </div>
     </Container>
   );

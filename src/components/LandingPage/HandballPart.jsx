@@ -9,7 +9,7 @@ function FootballPart() {
       <div className="parenDiv d-lg-flex d-sm-inline-block">
         <div className="handballbg">
           <div className="d-flex align-items-center pt-4">
-            <img className="footballstyling" src={handballmain} alt="No dispaly" />
+            <img className="footballstyling" src={handballmain} alt="No dispaly" loading='lazy'/>
             <h3 className="commoncolor px-2 py-3 mb-0 fw-bold">HANDBALL</h3>
           </div>
           <p className="main-para mb-0">
@@ -22,6 +22,7 @@ function FootballPart() {
                 className="footballstylingforbuttons"
                 src={handball}
                 alt="No dispaly"
+                loading='lazy'
               />
               <span className="para-styling">Mions de 16 ans</span>
             </button>
@@ -30,6 +31,7 @@ function FootballPart() {
                 className="footballstylingforbuttons"
                 src={handball}
                 alt="No dispaly"
+                loading='lazy'
               />
               <span className="para-styling">Mions de 19 ans</span>
             </button>
@@ -38,6 +40,7 @@ function FootballPart() {
                 className="footballstylingforbuttons"
                 src={handball}
                 alt="No dispaly"
+                loading='lazy'
               />
               <span className="para-styling">Mions de 21 ans</span>
             </button>
@@ -64,7 +67,7 @@ function FootballPart() {
             </button>
           </div>
         </div>
-        <img className="imagewidth" src={handballMan} alt="No Display" />
+        <img className="imagewidth" src={handballMan} alt="No Display" loading='lazy'/>
       </div>
     </Container>
   );

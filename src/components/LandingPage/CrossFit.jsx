@@ -10,10 +10,11 @@ function FootballPart() {
           className="secondimagewdith float-left"
           src={gym}
           alt="No Display"
+          loading='lazy'
         />
         <div className="px-4 py-3">
           <div className="d-flex align-items-center">
-            <img className="footballstyling" src={yogga} alt="No display" />
+            <img className="footballstyling" src={yogga} alt="No display" loading='lazy'/>
             <h3 className="commoncolor px-2 mb-0 fw-bold">CROSS-FIT</h3>
           </div>
           <p className="main-para mb-0">

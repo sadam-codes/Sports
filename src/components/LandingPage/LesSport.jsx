@@ -36,7 +36,7 @@ function LessSport() {
       <Row className="py-4 text-center">
         {sportsData.map((sport) => (
           <Col key={sport.name} md={4} className="py-3">
-            <img className="px-lg-2 px-sm-0" src={sport.image} alt="No Display" />
+            <img className="px-lg-2 px-sm-0" src={sport.image} alt="No Display" loading='lazy'/>
             {sport.name}
           </Col>
         ))}

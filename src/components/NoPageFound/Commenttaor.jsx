@@ -24,12 +24,12 @@ function FootballPart() {
           </p>
 
           <p className="main-para mb-0 py-2">
-            Le comité d'organisation, dirigé par un délégué et assisté
-            d'arbitres, veillera à la gestion des matchs entre les équipes. Les
+            Le comite organisation, dirige par un delegue et assiste
+            darbitres, veillera à la gestion des matchs entre les equipes. Les
             scores des rencontres seront disponibles sur le site web
           </p>
           <p className="main-para mb-0 py-2">
-            Le programme de la compétition sera publié dès la finalisation de
+            Le programme de la competition sera publie des la finalisation de
             lopération dinscription et du tirage au sort.
           </p>
           <div className="text-start py-2">

@@ -24,17 +24,17 @@ function FootballPart() {
           </div>
           <p className="main-para mb-0">
             Rabat jeunesse propose des compétitions de Football par genre et
-            selon les catégories dâges suivantes:
+            selon les categories dages suivantes:
           </p>
 
           <p className="main-para mb-0 py-2">
-            Le comité d'organisation, dirigé par un délégué et assisté par des
-            arbitres, veillera à la gestion des matchs entre les différentes
-            équipes. Les résultats des rencontres seront publiés sur le site web
+            Le comite dorganisation, dirige par un delegue et assiste par des
+            arbitres, veillera a la gestion des matchs entre les differentes
+            equipes. Les resultats des rencontres seront publies sur le site web
           </p>
           <p className="main-para mb-0 py-2">
-            Le programme de la compétition sera publié dès la finalisation de
-            lopération dinscription et du tirage au sort.
+            Le programme de la competition sera publié des la finalisation de
+            loperation dinscription et du tirage au sort.
           </p>
           <p className="main-para mb-0 py-2">
             Des grands prix seront attribués aux gagnants de cette compétition.
